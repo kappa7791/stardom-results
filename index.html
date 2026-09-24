@@ -130,7 +130,7 @@
   <main id="list"></main>
   <footer class="foot">
     出典: スターダム公式サイト(wwr-stardom.com) 試合結果レポート ／ 興行一覧はスターダム公式データ ／ 配信リンクは STARDOM WORLD の大会別まとめ(セット)ページへ直リンク(要ログイン)。まとめが用意されていない大会は配信ボタン非表示です。
-    データは公開情報に基づく手動編集であり、誤り(選手名・チーム分け・決まり手等)が含まれる可能性があります。年タブで年を切り替えられます(2022〜2026年に対応。2026年は開催済み分のみ(9/6まで))。配信リンクは各大会のSTARDOM WORLDまとめページへ直リンク。まとめが無い大会は配信ボタン非表示。
+    データは公開情報に基づく手動編集であり、誤り(選手名・チーム分け・決まり手等)が含まれる可能性があります。年タブで年を切り替えられます(2022〜2026年に対応。2026年は開催済み分のみ(9/23まで))。配信リンクは各大会のSTARDOM WORLDまとめページへ直リンク。まとめが無い大会は配信ボタン非表示。
   </footer>
 </div>
 <script>
@@ -6921,7 +6921,7 @@ const DATA = {
   },
 
   "2026": {
-    coverage: "2026年 STARDOM主催の全興行を日付順に収録(他団体参戦・ファンミーティング・アーカイブ配信等の非試合イベントは除く。開催済み分のみ、9/6まで)。データはスターダム公式サイト(wwr-stardom.com)の試合結果に基づく手動編集で、配信リンクは STARDOM WORLD の大会別まとめ(セット)ページへ直リンク(要ログイン)。まとめが無い大会は配信ボタン非表示です。1回戦などの点数制リーグ戦は勝点表記を省略。多人数タッグでチーム区分が原典に無い場合は出場選手を列記し勝者(フォールした選手)のみ記載。原典で決まり手・時間が判別できなかった試合は「—」表記です。",
+    coverage: "2026年 STARDOM主催の全興行を日付順に収録(他団体参戦・ファンミーティング・アーカイブ配信等の非試合イベントは除く。開催済み分のみ、9/23まで)。データはスターダム公式サイト(wwr-stardom.com)の試合結果に基づく手動編集で、配信リンクは STARDOM WORLD の大会別まとめ(セット)ページへ直リンク(要ログイン)。まとめが無い大会は配信ボタン非表示です。1回戦などの点数制リーグ戦は勝点表記を省略。多人数タッグでチーム区分が原典に無い場合は出場選手を列記し勝者(フォールした選手)のみ記載。原典で決まり手・時間が判別できなかった試合は「—」表記です。",
     events: [
 
     /* ===== 1月 ===== */
@@ -7986,6 +7986,71 @@ const DATA = {
         {order:6, label:"タッグマッチ", card:"羽南・八神蘭奈 vs 壮麗亜美・鉄アキラ", result:"八神蘭奈 勝利", time:"11:33", finish:"ビートストライク→エビ固め"},
         {order:7, label:"ハイスピード選手権試合", card:"水森由菜 vs コグマ", result:"時間切れ引き分け(王者・水森由菜が5度目の防衛に成功)", time:"15:00", finish:"時間切れ引き分け"},
         {order:8, label:"6人タッグマッチ", card:"鈴季すず・天咲光由・スターライト・キッド vs 刀羅ナツコ・上谷沙弥・稲葉あずさ(JTO)", result:"鈴季すず 勝利", time:"11:30", finish:"ジャーマンスープレックスホールド"}
+      ]},
+
+    { event_name:"STARDOM TO THE WORLD 2026", date:"2026-09-12",
+      venue:"横浜武道館", attendance:null,
+      source_url:"https://wwr-stardom.com/event/20260912_yokohama/", world_url:null,
+      matches:[
+        {order:1, label:"タッグマッチ", card:"飯田沙耶・浜辺纏 vs レディ・C・虎龍清花", result:"レディ・C 勝利", time:"8:07", finish:"チョークスラム・レクイエム→片エビ固め"},
+        {order:2, label:"3WAYトリオバトル", card:"山下りな・青木いつ希・安納サオリ vs HANAKO・月山和香・林下詩美 vs 小波・琉悪夏・フキゲンです★", result:"HANAKO 勝利", time:"8:00", finish:"JPコースター→エビ固め"},
+        {order:3, label:"6人タッグマッチ", card:"伊藤麻希・古沢稀杏・梨杏 vs 葉月・コグマ・フワちゃん", result:"葉月 勝利", time:"8:30", finish:"葉・月ストラル"},
+        {order:4, label:"スペシャルシングルマッチ", card:"金屋あんね vs ビー・プレストリー", result:"ビー・プレストリー 勝利", time:"7:20", finish:"クイーンズランディング"},
+        {order:5, label:"タッグマッチ", card:"朱里・妃南 vs 吏南・稲葉あずさ(JTO)", result:"朱里 勝利", time:"8:38", finish:"流炎→片エビ固め"},
+        {order:6, label:"フューチャー・オブ・スターダム選手権試合", card:"八神蘭奈 vs 鉄アキラ", result:"八神蘭奈 勝利(八神蘭奈が10度目の防衛に成功)", time:"12:56", finish:"ビートストライク→片エビ固め"},
+        {order:7, label:"アーティスト・オブ・スターダム選手権試合", card:"テクラ・ジュリア・ハート・スカイ・ブルー vs さくらあや・なつぽい・水森由菜", result:"スカイ・ブルー 勝利(王者組が初防衛に成功)", time:"13:32", finish:"TKO→片エビ固め"},
+        {order:8, label:"ゴッデス・オブ・スターダム選手権試合", card:"AZM・天咲光由 vs 渡辺桃・上谷沙弥", result:"AZM 勝利(王者組が3度目の防衛に成功)", time:"—", finish:"ヌメロ・ウノ"},
+        {order:9, label:"ワンダー・オブ・スターダム選手権試合", card:"羽南 vs 壮麗亜美", result:"羽南 勝利(羽南が3度目の防衛に成功)", time:"16:52", finish:"リストクラッチ式バックドロップホールド"},
+        {order:10, label:"ワールド・オブ・スターダム選手権試合 NO DQルール", card:"鈴季すず vs 刀羅ナツコ", result:"鈴季すず 勝利(鈴季すずが2度目の防衛に成功)", time:"22:52", finish:"ジャーマンスープレックスホールド on chairs"}
+      ]},
+
+    { event_name:"STARDOM SILVER WEEK TOUR 2026 in TOTTORI", date:"2026-09-19",
+      venue:"夢みなとタワー 多目的ホール", attendance:319,
+      source_url:"https://wwr-stardom.com/event/20260919_tottori/", world_url:null,
+      matches:[
+        {order:1, label:"タッグマッチ", card:"古沢稀杏・梨杏 vs 吏南・稲葉あずさ(JTO)", result:"稲葉あずさ(JTO) 勝利", time:"10:06", finish:"稲葉あずさの姉越→エビ固め"},
+        {order:2, label:"タッグマッチ", card:"さくらあや・金屋あんね vs 伊藤麻希・林下詩美", result:"林下詩美 勝利", time:"11:02", finish:"ジャーマンスープレックスホールド"},
+        {order:3, label:"タッグマッチ", card:"AZM・天咲光由 vs 妃南・レディ・C", result:"AZM 勝利", time:"10:55", finish:"あずみ寿司"},
+        {order:4, label:"10人タッグマッチ", card:"羽南・飯田沙耶・浜辺纏・月山和香・HANAKO vs 刀羅ナツコ・渡辺桃・小波・上谷沙弥・琉悪夏", result:"渡辺桃 勝利", time:"13:07", finish:"Bドライバー→エビ固め"},
+        {order:5, label:"6人タッグマッチ", card:"朱里・壮麗亜美・八神蘭奈 vs なつぽい・安納サオリ・水森由菜", result:"壮麗亜美 勝利", time:"9:50", finish:"雷の如く→片エビ固め"},
+        {order:6, label:"6人タッグマッチ", card:"鈴季すず・青木いつ希・鉄アキラ vs 葉月・コグマ・フワちゃん", result:"青木いつ希 勝利", time:"14:20", finish:"羅紗鋏→エビ固め"}
+      ]},
+
+    { event_name:"STARDOM SILVER WEEK TOUR 2026 in FUKUYAMA", date:"2026-09-20",
+      venue:"広島県立ふくやま産業交流館ビッグ・ローズ Aホール", attendance:null,
+      source_url:"https://wwr-stardom.com/event/20260920_fukuyama/", world_url:null,
+      matches:[
+        {order:1, label:"タッグマッチ", card:"古沢稀杏・梨杏 vs 渡辺桃・上谷沙弥", result:"渡辺桃 勝利", time:"8:52", finish:"ひとでなしドライバー→エビ固め"},
+        {order:2, label:"3WAYバトル", card:"林下詩美 vs 金屋あんね vs フワちゃん", result:"林下詩美 勝利", time:"7:21", finish:"ランニングラリアット→エビ固め"},
+        {order:3, label:"6人タッグマッチ", card:"AZM・天咲光由・伊藤麻希 vs 妃南・レディ・C・八神蘭奈", result:"妃南 勝利", time:"9:36", finish:"マッドスプラッシュ→エビ固め"},
+        {order:4, label:"タッグマッチ", card:"朱里・壮麗亜美 vs さくらあや・水森由菜", result:"朱里 勝利", time:"13:02", finish:"グラウンド式朱雀"},
+        {order:5, label:"3WAYタッグバトル", card:"鈴季すず・鉄アキラ vs なつぽい・安納サオリ vs 葉月・コグマ", result:"なつぽい 勝利", time:"6:06", finish:"フェアリーマジック"},
+        {order:6, label:"10人タッグマッチ", card:"羽南・飯田沙耶・浜辺纏・月山和香・HANAKO vs 刀羅ナツコ・小波・琉悪夏・吏南・稲葉あずさ(JTO)", result:"小波 勝利", time:"13:41", finish:"パントキック→エビ固め"}
+      ]},
+
+    { event_name:"STARDOM SILVER WEEK TOUR 2026 in FUKUOKA", date:"2026-09-22",
+      venue:"アクロス福岡 イベントホール", attendance:675,
+      source_url:"https://wwr-stardom.com/event/20260922_fukuoka/", world_url:null,
+      matches:[
+        {order:1, label:"タッグマッチ", card:"AZM・天咲光由 vs 古沢稀杏・梨杏", result:"天咲光由 勝利", time:"9:56", finish:"天聖→片エビ固め"},
+        {order:2, label:"タッグマッチ", card:"さくらあや・金屋あんね vs 月山和香・HANAKO", result:"月山和香 勝利", time:"8:15", finish:"ムーンライトドリーム"},
+        {order:3, label:"6人タッグマッチ", card:"朱里・壮麗亜美・レディ・C vs 刀羅ナツコ・小波・稲葉あずさ(JTO)", result:"刀羅ナツコ 勝利", time:"12:24", finish:"スワントーンボム→片エビ固め"},
+        {order:4, label:"6人タッグマッチ", card:"鈴季すず・山下りな・鉄アキラ vs なつぽい・安納サオリ・水森由菜", result:"水森由菜 勝利", time:"8:39", finish:"スーパーガール"},
+        {order:5, label:"シングルマッチ", card:"八神蘭奈 vs 吏南", result:"吏南 勝利", time:"11:45", finish:"ダイビングダブルニードロップ→体固め"},
+        {order:6, label:"6人タッグマッチ", card:"羽南・飯田沙耶・浜辺纏 vs 渡辺桃・上谷沙弥・琉悪夏", result:"琉悪夏 勝利", time:"11:28", finish:"セカンドボディプレス→片エビ固め"},
+        {order:7, label:"6人タッグマッチ", card:"舞華・伊藤麻希・林下詩美 vs 葉月・コグマ・フワちゃん", result:"舞華 勝利", time:"14:19", finish:"みちのくドライバーⅡ→エビ固め"}
+      ]},
+
+    { event_name:"STARDOM SILVER WEEK TOUR 2026 in SHIMONOSEKI", date:"2026-09-23",
+      venue:"山口・海峡メッセ下関 展示見本市会場", attendance:509,
+      source_url:"https://wwr-stardom.com/event/20260923_shimonoseki/", world_url:null,
+      matches:[
+        {order:1, label:"タッグマッチ", card:"羽南・飯田沙耶 vs 古沢稀杏・梨杏", result:"飯田沙耶 勝利", time:"10:16", finish:"ラリアット→片エビ固め"},
+        {order:2, label:"シングルマッチ", card:"天咲光由 vs 浜辺纏", result:"天咲光由 勝利", time:"9:01", finish:"天聖→片エビ固め"},
+        {order:3, label:"タッグマッチ", card:"葉月・フワちゃん vs 吏南・稲葉あずさ(JTO)", result:"吏南 勝利", time:"10:58", finish:"Pink♥Devil→体固め"},
+        {order:4, label:"8人タッグマッチ", card:"朱里・壮麗亜美・レディ・C・八神蘭奈 vs AZM・伊藤麻希・コグマ・林下詩美", result:"AZM 勝利", time:"11:30", finish:"ダイビングフットスタンプ→片エビ固め"},
+        {order:5, label:"6人タッグマッチ", card:"鈴季すず・山下りな・鉄アキラ vs 舞華・月山和香・HANAKO", result:"山下りな 勝利", time:"11:00", finish:"インプラント→エビ固め"},
+        {order:6, label:"10人タッグマッチ", card:"さくらあや・なつぽい・安納サオリ・水森由菜・金屋あんね vs 刀羅ナツコ・渡辺桃・小波・上谷沙弥・琉悪夏", result:"上谷沙弥 勝利", time:"13:55", finish:"スタークラッシャー→片エビ固め"}
       ]},
 
     ]

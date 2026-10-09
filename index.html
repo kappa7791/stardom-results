@@ -8152,7 +8152,7 @@ const DEFAULT_YEAR = "2026";
       date: e.date, venue: e.venue || "不明", attendance: e.attendance || null,
       name: e.event_name || "", source: e.source_url || null, worldUrl: e.world_url || null,
       matches: (e.matches||[]).map(m => ({ order: m.order, card: m.card || "", label: m.label || m.note || null, result: m.result || null, time: m.time || null, finish: m.finish || null }))
-    })).sort((a,b) => a.date < b.date ? -1 : a.date > b.date ? 1 : 0);
+    })).sort((a,b) => a.date < b.date ? 1 : a.date > b.date ? -1 : 0);
   }
   const state = { year: DEFAULT_YEAR, q:"", titleOnly:false };
   function matchHits(m, q){
